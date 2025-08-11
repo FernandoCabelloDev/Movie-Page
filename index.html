@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas Gratis</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Añade esto para íconos (opcional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <h1 class="titulo-pagina">Películas Gratis</h1> <!-- Cambiado a clase genérica -->
+    </header>
+
+    <nav class="filtros">
+        <button class="filtro-btn activo" data-categoria="todas">TODAS</button>
+        <button class="filtro-btn" data-categoria="accion">ACCIÓN Y AVENTURA</button>
+        <button class="filtro-btn" data-categoria="aventura">AVENTURA</button>
+        <button class="filtro-btn" data-categoria="comedia">COMEDIA</button>
+        <button class="filtro-btn" data-categoria="terror">TERROR</button>
+        <button class="filtro-btn" data-categoria="animacion">ANIMACIÓN</button>
+        <button class="filtro-btn" data-categoria="series">SERIES</button>
+        
+    </nav>
+
+    <main class="peliculas">
+        <!-- Película 1 (ejemplo con categoría) -->
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_prey.jpg" class="movie-poster" >
+            <h3 class="movie-title">Depredador la Presa</h3> 
+            <a href="https://drive.google.com/file/d/154QGORQpROPPrqm0xn_zzG8A3ikx2dQq/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_blade_runner.png" class="movie-poster" >
+            <h3 class="movie-title">Blade Runner</h3> 
+            <a href="https://drive.google.com/file/d/1TSd4SbCpSZZCE2d0i-g6N1Z2p6ZB0xex/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_el_hombre_de_acero.png" class="movie-poster" >
+            <h3 class="movie-title">El Hombre de Acero</h3> 
+            <a href="https://youtu.be/7ELZfyv0exQ?si=4d3p7DT7Nb0TZA4O" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_batman_vs_superman.png" class="movie-poster" >
+            <h3 class="movie-title">Batman vs Superman</h3> 
+            <a href="https://www.youtube.com/embed/U-uQKAHr_Vs?start=0" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_liga_de_la_justicia.png" class="movie-poster" >
+            <h3 class="movie-title">Liga de la Justicia</h3> 
+            <a href="https://www.youtube.com/embed/VFNx6gTYpeI?start=0" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_65_borde_extincion.png" class="movie-poster" >
+            <h3 class="movie-title">Hace 65 millones</h3> 
+            <a href="https://www.youtube.com/embed/GajYOOPHPBA?start=0" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_interstelar.jpg" class="movie-poster" >
+            <h3 class="movie-title">Interstelar</h3> 
+            <a href="https://www.youtube.com/embed/K903vosh3CM?start=0" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+            
+        <div class="movie-card" data-categoria="animacion">
+            <img src="PortadasDePeliculas/portada_robot_salvaje.png" class="movie-poster" >
+            <h3 class="movie-title">Robot Salvaje</h3> 
+            <a href="https://www.youtube.com/embed/qESSnpjkRz0?start=0" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="animacion">
+            <img src="PortadasDePeliculas/portada_coraline.png" class="movie-poster" >
+            <h3 class="movie-title">Coraline</h3> 
+            <a href="https://drive.google.com/file/d/1XlEce_L79wYEj8_zxp423RTF6CQNkPmZ/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="animacion">
+            <img src="PortadasDePeliculas/portada_flow.png" class="movie-poster" >
+            <h3 class="movie-title">FLOW</h3> 
+            <a href="https://drive.google.com/file/d/1MG8b7XId7ixGSS_5beZT12PJnm2fbYit/view?usp=sharing" class="boton" >VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_un lugar_en_silencio_1.png" class="movie-poster" >
+            <h3 class="movie-title">Un Lugar en Silencio 1</h3> 
+            <a href="https://drive.google.com/file/d/1KEuPXfmczbV_BGXbWWsCJEHXj5Zyz2p3/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_un_lugar_en_silencio_2.png" class="movie-poster" >
+            <h3 class="movie-title">Un Lugar en Silencio 2</h3> 
+            <a href="https://drive.google.com/file/d/1KDoIF8JSZYArfJSv0KRB5aS8OIPCKSzb/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_un_lugar_en_silencio_3.jpg" class="movie-poster" >
+            <h3 class="movie-title">Un Lugar en Silencio 3</h3> 
+            <a href="https://drive.google.com/file/d/10rehmoHP4Bugw48TBEP5ksGEU0VaLBTp/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_narnia.png" class="movie-poster" >
+            <h3 class="movie-title">Narnia</h3> 
+            <a href="https://drive.google.com/file/d/1lrO9dYdCgYJJD8CU8-y9TtLkb1FvWPrk/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="animacion">
+            <img src="PortadasDePeliculas/portada_gato_con_botas.png" class="movie-poster" >
+            <h3 class="movie-title">Gato con Botas</h3> 
+            <a href="https://drive.google.com/file/d/1IyYWFIIlfiiD3XksJOrfkwwT35agiLvE/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="terror">
+            <img src="PortadasDePeliculas/portada_la_bruja.png" class="movie-poster" >
+            <h3 class="movie-title">La Bruja</h3> 
+            <a href="https://drive.google.com/file/d/1NRAftlXWe27VCgSMerhENzq4mcJy5Ljr/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="terror">
+            <img src="PortadasDePeliculas/portada_hereditary.png" class="movie-poster" >
+            <h3 class="movie-title">Hereditary</h3> 
+            <a href="https://drive.google.com/file/d/1YNJsynUPS02pqisHtjbgHvO2eB_DsJl9/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="terror">
+            <img src="PortadasDePeliculas/portada_barbarian.png" class="movie-poster" >
+            <h3 class="movie-title">Barbarian</h3> 
+            <a href="https://drive.google.com/file/d/1WQDeK3HH6Ux62gdC3xspVz1wi6wtR5zF/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_avengers1.png" class="movie-poster" >
+            <h3 class="movie-title">Los Vengadores 1</h3> 
+            <a href="https://drive.google.com/file/d/1acFGNq9luXS23F-0tDCJcxzlr0N0_VkG/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_avengers2.png" class="movie-poster" >
+            <h3 class="movie-title">Los Vengadores 2</h3> 
+            <a href="https://drive.google.com/file/d/1oIXgJSPZreVNQQR2g1wE185KSMApPL1R/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_avengers3.png" class="movie-poster" >
+            <h3 class="movie-title">Los Vengadores 3</h3> 
+            <a href="https://drive.google.com/file/d/1DJtKgIwaKs-RpqFdlIU-jpjPir0umdeF/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_avengers4.png" class="movie-poster" >
+            <h3 class="movie-title">Los Vengadores 4</h3> 
+            <a href="https://drive.google.com/file/d/1CDHMHzHduT-prTpLeL_rktggxZXv9DxZ/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="animacion">
+            <img src="PortadasDePeliculas/portada_La_Familia_Mitchell.png" class="movie-poster" >
+            <h3 class="movie-title">La familia Mitchell</h3> 
+            <a href="https://drive.google.com/file/d/1RAwXsfArmnchQyDIZIFd3d4l8tw9y76_/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="animacion">
+            <img src="PortadasDePeliculas/portada_depredador_cazador_de_asesinos.png" class="movie-poster" >
+            <h3 class="movie-title">Depredador</h3> 
+            <a href="https://drive.google.com/file/d/1he2aUEL88skJQpSkzQgD-uo0-DO109N3/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="animacion">
+            <img src="PortadasDePeliculas/portada_dragon1.png" class="movie-poster" >
+            <h3 class="movie-title">Como Enterenar a tu Dragon 1</h3> 
+            <a href="https://drive.google.com/file/d/1quTR0j0qoNHQdVNWlcUKBYkKy96Ydimj/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="animacion">...........
+            <img src="PortadasDePeliculas/portada_dragon2.png" class="movie-poster" >
+
+            <h3 class="movie-title">Como Enterenar a tu Dragon 2</h3> 
+            <a href="https://drive.google.com/file/d/1quTR0j0qoNHQdVNWlcUKBYkKy96Ydimj/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="animacion">
+            <img src="PortadasDePeliculas/portada_dragon3.png" class="movie-poster" >
+            <h3 class="movie-title">Como Enterenar a tu Dragon 3</h3> 
+            <a href="https://drive.google.com/file/d/1quTR0j0qoNHQdVNWlcUKBYkKy96Ydimj/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_jurassic1.png" class="movie-poster" >
+            <h3 class="movie-title">Jurassic Parck 1</h3> 
+            <a href="https://drive.google.com/file/d/12kd3pXsC-bZh9zoSgBZgPgoYrEXfBauB/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_jurassic2.png" class="movie-poster" >
+            <h3 class="movie-title">Jurassic Parck 2</h3> 
+            <a href="" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_jurassic3.png" class="movie-poster" >
+            <h3 class="movie-title">Jurassic Parck 3</h3> 
+            <a href="" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+
+        <div class="movie-card" data-categoria="accion">
+            <img src="PortadasDePeliculas/portada_jurassic4.png" class="movie-poster" >
+            <h3 class="movie-title">Jurassic Parck 4</h3> 
+            <a href="https://drive.google.com/file/d/1dvTA7N1Kaeg4l3HH6jz6h2qHcoUCP6x4/view?usp=sharing" class="boton">VER PELÍCULA <i class="fas fa-play"></i></a> <!-- Ícono añadido -->
+        </div>
+    </main>
+</body>
+</html>
